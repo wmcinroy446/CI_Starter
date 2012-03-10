@@ -38,8 +38,10 @@
 |
 */
 
-$route['default_controller'] = "welcome";
-$route['404_override'] = '';
+// route the default page and any 404s through the pages controller
+$route['default_controller'] = "pages";
+$route['404_override'] = 'pages';
+// otherwise, every other call routes as normal.
 
 
 /* End of file routes.php */
