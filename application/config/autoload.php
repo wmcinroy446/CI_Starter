@@ -38,7 +38,7 @@
 */
 
 $autoload['packages'] = array();
-
+$autoload['sparks'] = array('ion_auth/2.1.2', 'php-activerecord/0.0.2');
 
 /*
 | -------------------------------------------------------------------
